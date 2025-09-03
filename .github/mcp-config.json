@@ -1,0 +1,29 @@
+{
+  "mcpServers": {
+    "github": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-github"],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "",
+        "GITHUB_REPOSITORY": "gabrieldausque/skills-integrate-mcp-with-copilot"
+      }
+    }
+  },
+  "repository": {
+    "owner": "gabrieldausque",
+    "name": "skills-integrate-mcp-with-copilot",
+    "permissions": {
+      "issues": "write",
+      "contents": "write",
+      "pull_requests": "write",
+      "metadata": "read"
+    }
+  },
+  "features": {
+    "issue_creation": true,
+    "file_management": true,
+    "pull_request_management": true,
+    "project_management": true
+  }
+}
+
