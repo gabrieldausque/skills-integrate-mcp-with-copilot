@@ -10,7 +10,6 @@ permissions:
   issues: write
   pull-requests: write
   repository-projects: write
-  metadata: read
 
 jobs:
   setup-integration:
@@ -46,7 +45,6 @@ jobs:
               - ✅ Contents (write) - Can read and modify repository contents  
               - ✅ Pull Requests (write) - Can create and manage pull requests
               - ✅ Projects (write) - Can manage repository projects
-              - ✅ Metadata (read) - Can read repository metadata
               
               ## Next Steps
               Your repository is now configured for GitHub Copilot and MCP integration. You can:
