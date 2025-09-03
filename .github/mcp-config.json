@@ -4,7 +4,7 @@
       "command": "npx",
       "args": ["-y", "@modelcontextprotocol/server-github"],
       "env": {
-        "GITHUB_PERSONAL_ACCESS_TOKEN": "",
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "${GITHUB_TOKEN}",
         "GITHUB_REPOSITORY": "gabrieldausque/skills-integrate-mcp-with-copilot"
       }
     }
@@ -15,8 +15,7 @@
     "permissions": {
       "issues": "write",
       "contents": "write",
-      "pull_requests": "write",
-      "metadata": "read"
+      "pull_requests": "write"
     }
   },
   "features": {
